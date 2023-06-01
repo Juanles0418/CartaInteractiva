@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dedicatoria 3</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            text-align: center;
+            background-image: url('imagen3.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 100vh;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #ffffff;
+	    font-size: 25px;
+        }
+        h1, p {
+            margin: 10px;
+        }
+        .back-button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #ff0000;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Dedicatoria 3</h1>
+        <h1>Querida Calabacita</h1>
+        <p><b>Creo que aun no sabes pero esta cancion y video expresa lo que siento cada dia cuando te veo, no tengo palabras y aun no entiendo pero cada dia contido es como enamorarse de nuevo, y no hace falta que te diga que me muero por estar contigo cada dia, gracias por permitirme enamorarte, por aceptar cada dia ser mi novia, gracias por hacerme dependiente a verte, por hacerme dependiente a estar contigo, porque contigo encuentro una razon cada de porqué superarme, de porqué despertarme, y espero algun dia agradecerte, quizas dentros de algunos años, por darme la oportunidad de casarme contigo, incluso tal vez, de ayudarme a seguir vivo, te amo.</b></p>
+        <div class="video-container">
+            <video width="560" height="315" controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no admite la etiqueta de video.
+            </video>
+        </div>
+        <button class="back-button" onclick="window.history.back();">Regresar</button>
+    </div>
+</body>
+</html>
+
+
